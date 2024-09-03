@@ -1,0 +1,73 @@
+.btn-secondary a span {
+    background-color: var(--e-global-color-uicore_accent);
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+.btn-secondary a  {
+    padding: 0;
+}
+
+.page{
+     min-height: 79vh;
+     text-align: center;
+ }
+.wp-block-post-title{
+    text-align: center;
+    margin-top: 18vh;
+}
+#loginform{
+    margin-top: 10vh;
+}
+#wp-submit{
+    text-align: center;
+    margin: 0 auto;
+    background: var(--e-global-color-uicore_accent);
+    color: var(--e-global-color-uicore_white);
+    border: 0;
+    padding: 15px 75px;
+    border-radius: 20px;
+}
+label{
+    color:#000;
+}
+.login-username,.login-password,.login-remember{
+    text-align: left;
+}
+
+
+#lostpasswordform fieldset,#resetpasswordform fieldset,#password-lost-form-wrap fieldset {
+    border: 0;
+    text-align: left;
+}
+#lostpasswordform legend,#resetpasswordform legend,#password-lost-form-wrap legend{
+    display: none;
+}
+.lostpassword-submit {
+    text-align: center;
+}
+#resetpasswordform input{
+    max-width: none;
+}
+.lostpassword-submit button {
+    text-align: center;
+    margin: 0 auto;
+    background: var(--e-global-color-uicore_accent) !important;
+    color: var(--e-global-color-uicore_white) !important;
+    border: 0;
+    padding: 15px 75px !important;
+    border-radius: 20px !important;
+    border: 0 !important;
+}
+[dir="rtl"] #lostpasswordform fieldset,[dir="rtl"] #resetpasswordform fieldset{
+    text-align: right;
+}
+
+[dir="rtl"] .login-username,[dir="rtl"] .login-password,[dir="rtl"] .login-remember{
+    text-align: right;
+}
+[dir="rtl"] input[type=checkbox] {
+    margin-left: 5px;
+    height: 30px;
+    float: right;
+    width: auto;
+}
